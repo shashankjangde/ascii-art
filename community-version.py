@@ -208,18 +208,6 @@ def create_colored_ascii_art_image(
 
     # Initialize the drawing context
     draw = ImageDraw.Draw(image)
-    #colors = [
-    #    (255, 180, 128),
-    #    (255, 200, 150),
-    #    (255, 170, 130),
-    #    (255, 160, 200),
-    #    (255, 180, 220),
-    #    (128, 255, 140),
-    #    (255, 140, 200),
-    #    (255, 130, 180),
-    #    (255, 210, 140),
-    #    (200, 255, 130),
-    #]
     colors = COLOR_THEMES[color_theme]
 
     # Start drawing text line by line, keeping alignment
